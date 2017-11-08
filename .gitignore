@@ -1,0 +1,12 @@
+
+CPP/.idea/.name
+*.iml
+*.xml
+*.exe
+*.bin
+*.cxx
+*.make
+*.rsp
+*.cmake
+*.check_cache
+*.log
