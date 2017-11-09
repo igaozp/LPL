@@ -3,5 +3,6 @@ project(homework)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
-add_executable(CPP ${SOURCE_FILES})
+#set(SOURCE_FILES STL/vector.cpp)
+#set(SOURCE_FILES main.cpp)
+add_executable(CPP ${SOURCE_FILES} STL/array.cpp)
