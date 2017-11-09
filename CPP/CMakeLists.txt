@@ -3,5 +3,6 @@ project(LPL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+#set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES STL/list.cpp)
 add_executable(CPP ${SOURCE_FILES})
