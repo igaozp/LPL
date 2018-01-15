@@ -1,2 +1,2 @@
 # LPL
-LPL = Learn Programming Languages
+LPL = Learning Programming Languages
