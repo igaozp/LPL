@@ -10,4 +10,13 @@ func main() {
 	for i, v := range num {
 		fmt.Printf("2**%d = %d\n", i, v)
 	}
+
+	// 只保留下标
+	for i := range num {
+		num[i] = 1 << uint(i)
+	}
+	// 通过赋值给 _ 来忽略下标
+	for _, value := range num {
+		fmt.Printf("%d\t", value)
+	}
 }
