@@ -5,7 +5,7 @@ class DateRange(val start: MyDate, val end: MyDate) : Iterable<MyDate> {
 class DateIterator(val start: MyDate, val end: MyDate) : Iterator<MyDate> {
     var hasNext = start <= end
     var next = if (hasNext) start else end
-    
+
     override fun hasNext(): Boolean = hasNext
 
     override fun next(): MyDate {

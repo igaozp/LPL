@@ -3,5 +3,5 @@ project(LPL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES hello.cpp)
+set(SOURCE_FILES OOP/simple_class.cpp)
 add_executable(CPP ${SOURCE_FILES})
